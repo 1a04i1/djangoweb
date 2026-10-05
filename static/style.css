@@ -1,0 +1,120 @@
+body {
+    background: #f7f8fa;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #f7f8fa 0%, #eef2f5 100%);
+}
+
+.hero-card {
+    background: white;
+    border-radius: 24px;
+    padding: 45px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.hero-icon {
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    background: #212529;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.product-card {
+    border: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+}
+
+.product-image {
+    height: 220px;
+    object-fit: cover;
+}
+
+.placeholder-image,
+.detail-placeholder {
+    background: #e9ecef;
+    color: #6c757d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-image {
+    height: 220px;
+}
+
+.detail-image,
+.detail-placeholder {
+    width: 100%;
+    min-height: 430px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.stat-card {
+    background: white;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.stat-card small {
+    color: #6c757d;
+}
+
+.stat-card h2 {
+    margin: 8px 0 0;
+    font-weight: 800;
+}
+
+.table-product-image {
+    width: 70px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.empty-state {
+    background: white;
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+    color: #6c757d;
+}
+
+.delete-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #dc3545;
+    color: white;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
